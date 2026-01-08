@@ -76,6 +76,6 @@ Final best model was: Random Forest Regressor
 
 ### 4.3 Results: 
 
-When I studied the results in the secon part: 
+When I studied the results in the second part: 
 
 I focused on MAE/RMSE/R² because they explained the regression performance in different ways. For example, MAE showed the typical error size in IMDb rating points, which was easy to interpret. Since RMSE penalizes larger mistakes more, it helped in revealing whether the model sometimes makes big outlier errors. Finally, R² showed how much of the variation in IMDb ratings can be explained by the features I used compared to a simple baseline. Overall, the regression model performs reasonably well, but there are still some movies where the prediction error is larger, especially for extreme-rated or unusual cases.
